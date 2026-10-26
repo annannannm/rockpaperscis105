@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#title{
+    color:blueviolet;
+    padding: 20px;
+    text-align: center;
+    background-color: plum;
+    font-weight: 300;
+    font-size: large;
+}
+
+.players{
+     width: 100%;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: stretch;
+    justify-contsent: center;
+}
+
+.player{
+    text-align: center;
+}
+.player0{
+    width:100%;
+    color: darkred;
+    background-color: palevioletred;
+    border-color: darkred;
+    padding:auto;
+}
+
+.player1{
+    width: 100%;
+    color:darkblue;
+    background-color: paleturquoise;
+    border-color: darkblue;
+}
