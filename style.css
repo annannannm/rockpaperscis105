@@ -14,12 +14,12 @@
 }
 
 .players{
-     width: 100%;
-    min-height: 100vh;
+    width: 100%;
+    min-height: 50vh;
     display:flex;
     flex-direction: row;
     justify-content: stretch;
-    justify-contsent: center;
+    justify-content: center;
 }
 
 .player{
@@ -38,4 +38,109 @@
     color:darkblue;
     background-color: paleturquoise;
     border-color: darkblue;
+}
+
+.player0 p{
+    font-size: 50px;
+    min-height: auto;
+}
+.player1 p{
+    font-size: 50px;
+    min-height: auto;
+}
+
+
+#oo, #winnerT {
+    color:blueviolet;
+    padding: 20px;
+    text-align: center;
+    background-color: plum;
+    font-weight: 300;
+    font-size: large;
+    max-width: auto;
+    align-self: center;
+    min-height: fit-content;
+    
+}
+
+#score{
+    align-content: center;
+    min-width: 100vh;
+    text-align: center;
+    padding: auto;
+    font-size: 20px;
+    min-height: 10vh;
+    color:blueviolet;
+    background-color:plum;
+}
+
+.player1 button{
+    border-color: blueviolet;
+    margin-left: 30px;
+    margin-right: 30px;
+    min-width: 30px;
+    min-height: auto;
+    font-size: large;
+    color:blueviolet;
+    padding: 20px;
+    text-align: center;
+    background-color: plum;
+    font-weight: 300;
+    font-size: large;
+}
+
+#winnerC{
+    min-height: fit-content;
+    max-height: 20vh;
+    text-align: center;
+    width:100%;
+    color: darkred;
+    background-color: palevioletred;
+    border-color: darkred;
+    padding:auto;
+}
+
+#winnerU{
+    min-height: fit-content;
+    max-height: 20vh;
+    text-align: center;
+    width: 100%;
+    color:darkblue;
+    background-color: paleturquoise;
+    border-color: darkblue;
+
+}
+
+#history{
+    color:blueviolet;
+    padding: 20px;
+    text-align: center;
+    background-color: plum;
+    font-weight: 300;
+    font-size: large;
+    max-width: auto;
+    align-self: center;
+    min-height: fit-content;
+
+}
+
+.scorebox{
+    display:flex;
+    min-width:auto;
+    gap: 20px
+}
+
+.scorechild{
+    flex-direction: column;
+    color:blueviolet;
+    padding: 20px;
+    text-align: center;
+    background-color: plum;
+    font-weight: 300;
+    font-size: large;
+    max-width: auto;
+    align-self: center;
+    min-height: fit-content;
+    border-color: blueviolet;
+
 }

@@ -5,21 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="script" href="script.js">
 </head>
 <body>
     <h1 id = "title">PLAY ROCK PAPER SCISSORS</h1>
     <section class = "players">
-    <h2 class = "player player0">Computer</h2>
-    <h2 class = "player player1">You</h2>
-    <button></button>
-    <button></button>
-    <button></button>
+        <section class = "player player0">
+            <h1>Computer</h1>
+            <p id="computer-choice">Choose a move to start.</p>
+        </section>
+        <section class = "player player1">
+            <h1>You</h1>
+            <button onclick="user('rock')">Rock</button>
+            <button onclick="user('paper')">Paper</button>
+            <button onclick="user('scissors')">Scissors</button>
+            <p id="result">Waiting for your move...</p>
+            <button id = "btnend" onclick = "user('end')">END GAME.</button>
+   
     </section>
-    <section class = "scorewrap">
-    <p>Scoreboard</p>
-    <p id = scores></p> 
     </section>
+
+    </section class = "oo">
+        <p id = "oo" >SCORE</p>
+        <p id="score"></p>
     
+        <p id = "winnerC"></p>
+        <p id = 'winnerU'></p>
+        <p id = 'winnerT'></p>
+    <section class = "scorebox"></section>
+        <p class = "scorechild" id = "score0"></p>
+        <p class = "scorechild" id = "score1"></p>
+        <p class = "scorechild" id = "tie"></p>
+    </section>
+        <ol id = "history"></ol>
+    
+    </section>
+<script src="script.js"></script>  
 </body>
 </html>
